@@ -9,7 +9,7 @@ import java.io.*;
 
 
 public class TextEditor extends JFrame {
-    public static String path ="C://Users//nique//IdeaProjects//Text Editor//Text Editor//task//src//editor";
+    public static String path ="";
     private final JTextField searchField;
 
     private final JFileChooser jfc;
