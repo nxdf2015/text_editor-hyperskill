@@ -20,7 +20,7 @@ public class SearchWorker  extends SwingWorker<List<Integer>,Integer> {
 
         while( i < text.length() && ( i  = text.findNext()) != -1){
             publish(i);
-            i++;
+
 
         }
         return text.getIndex();
